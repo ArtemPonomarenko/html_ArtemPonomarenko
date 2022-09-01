@@ -6,17 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> 🇺🇦 Artem 🤘 </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Qwitcher+Grypen&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+  <article class="hidden-message">🤣 🕺🏻 I HATE CSS 🕺🏻 🤣</article>
   <header>
-    <h1>Artem Ponomarenko</h1>
-    <h2>Junior Web Developer</h2>
+    <h1 class="main-title">Artem Ponomarenko</h1>
+    <h2 class="main-title main--title__profession">Junior Web Developer</h2>
   </header>
   <main>
     <section class="about-me-section">
-      <h3>About me:</h3>
+      <h3 class="section-title">About me:</h3>
       <div class="about-me">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nesciunt reprehenderit suscipit est
           esse aliquid magni ipsa ut dolores ipsum reiciendis voluptatem! Iste libero illo sunt perspiciatis dicta
@@ -44,11 +51,12 @@
     </section>
     <hr>
     <section class="episodes-section">
-      <h3>Episodes from the past:</h3>
+      <h3 class="section-title">Episodes from the past:</h3>
 
-      <dl>
-        <dt>Beast of Bodmin</dt>
-        <dd>He woke and found her stretched beside him in the Japanese night like live wire voodoo and he’d cry for it,
+      <dl class="episode">
+        <dt class="episode-title">Beast of Bodmin</dt>
+        <dd class="episode-description">He woke and found her stretched beside him in the Japanese night like live wire
+          voodoo and he’d cry for it,
           cry in his sleep, and wake alone in the Japanese night like live wire voodoo and he’d cry for it, cry in his
           capsule in some coffin hotel, his hands clawed into the nearest door and watched the other passengers as he
           rode. He woke and found her stretched beside him in the tunnel’s ceiling. He’d taken the drug to blunt SAS,
@@ -77,9 +85,9 @@
           Fehlbetrag vom harten Kernkapital abzuziehen ist, als die Summe sämtlicher oben aufgeführter Positionen 10%
           des harten Kernkapitals der Bank als Sicherheit akzeptiert werden.
         </dd>
-
-        <dt>Morgawr</dt>
-        <dd>In Case of the Electors shall meet in their respective States, and within every subsequent Term of ten
+        <dt class="episode-title">Morgawr</dt>
+        <dd class="episode-description">In Case of the Electors shall meet in their respective States, and within every
+          subsequent Term of ten
           Years, in such Manner as they shall by Law direct. Treason against the United States, in Order to form a more
           perfect Union, establish Justice, insure domestic Tranquility, provide for calling forth the Militia to
           execute the Laws be faithfully executed, and shall Commission all the States shall be necessary and proper for
@@ -93,8 +101,9 @@
           any State to the President of the Senate.
         </dd>
 
-        <dt>The Sprawl was a square of faint light.</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet doloremque repudiandae sint, nobis
+        <dt class="episode-title">The Sprawl was a square of faint light.</dt>
+        <dd class="episode-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, amet doloremque
+          repudiandae sint, nobis
           optio voluptatum sunt, saepe quaerat reprehenderit quia labore quidem dolorem aliquam facere provident libero.
           Neque corporis eaque sunt quidem illo optio iusto impedit dignissimos, sapiente officiis ducimus. Ad cumque
           nam iure mollitia dolore exercitationem, aut incidunt.</dd>
@@ -103,52 +112,56 @@
     </section>
     <hr>
     <section class="skills-section">
-      <h3>Skills:</h3>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>SASS</li>
-        <li>JavaScript</li>
-        <li>JQuery</li>
-        <li>ReactJS</li>
-        <li>API</li>
-        <li>SQL and Relational Databases</li>
-        <li>NodeJS</li>
-        <li>Command Line</li>
-        <li>GitHub</li>
+      <h3 class="section-title">Skills:</h3>
+      <ul class="skill-list">
+        <li class="list-item">HTML5</li>
+        <li class="list-item">CSS3</li>
+        <li class="list-item">SASS</li>
+        <li class="list-item">JavaScript</li>
+        <li class="list-item">JQuery</li>
+        <li class="list-item">ReactJS</li>
+        <li class="list-item">API</li>
+        <li class="list-item">SQL and Relational Databases</li>
+        <li class="list-item">NodeJS</li>
+        <li class="list-item">Command Line</li>
+        <li class="list-item">GitHub</li>
       </ul>
     </section>
     <hr>
     <section class="recent-projects-section">
-      <h3>Most recent projects:</h3>
-      <ul>
+      <h3 class="section-title">Most recent projects:</h3>
+      <ul class="project-list">
         <li>Solar system project (HTML5, CSS3, Responsive design,
           small multipage
           web app):
           <ul>
-            <li><a href="https://planets-one.vercel.app/" target="_blank">Solar system </a></li>
-            <li><a href="https://github.com/ArtemPonomarenko/planets" target="_blank">Source code repository</a></li>
+            <li><a href="https://planets-one.vercel.app/" target="_blank" class="project-link">Solar system </a></li>
+            <li><a href="https://github.com/ArtemPonomarenko/planets" target="_blank" class="github-link">Source code
+                repository</a></li>
           </ul>
         </li>
         <li>Github user finder (GitHub API, HTML5, CSS3, JS):
           <ul>
-            <li><a href="https://dev-finder-alpha.vercel.app/" target="_blank">Dev-finder</a></li>
-            <li><a href="https://github.com/ArtemPonomarenko/dev-finder" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://dev-finder-alpha.vercel.app/" target="_blank" class="project-link">Dev-finder</a></li>
+            <li><a href="https://github.com/ArtemPonomarenko/dev-finder" target="_blank" class="github-link">GitHub
+                Repository</a></li>
           </ul>
         </li>
         <li>Tip Calculator (HTML5, CSS3, JS, Responsive design):
           <ul>
-            <li><a href="https://tip-calculator-five-chi.vercel.app/" target="_blank">Tip Calculator</a></li>
-            <li><a href="https://github.com/ArtemPonomarenko/Tip-Calculator" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://tip-calculator-five-chi.vercel.app/" target="_blank" class="project-link">Tip
+                Calculator</a></li>
+            <li><a href="https://github.com/ArtemPonomarenko/Tip-Calculator" target="_blank" class="github-link">GitHub
+                Repository</a></li>
           </ul>
         </li>
       </ul>
     </section>
     <hr>
     <section class="education-section">
-      <table border="1px, solid, black" style="border-collapse:collapse">
+      <table class="table table-bordered">
         <h3>Education:</h3>
-        <thead>
+        <thead class="table-dark">
           <tr>
             <th>Qualification</th>
             <th>Establishment</th>
@@ -181,7 +194,7 @@
     <hr>
     <section class="contact-me-section">
       <form action=".">
-        <h3>Contact me:</h3>
+        <h3 class="section-title">Contact me:</h3>
         <fieldset>
           <legend>Please leave your contact details and a message</legend>
           <label for="name">Name:</label>
@@ -199,8 +212,10 @@
     <hr>
   </main>
 
-  <footer>
-    Copyright <a href="mailto:artemponomarenko89@gmail.com">Artem Ponomarenko ©</a>2022 👻
+  <footer class="footer">
+    <span>
+      Copyright <a href="mailto:artemponomarenko89@gmail.com" class="footer--link">Artem Ponomarenko ©</a>2022 👻
+    </span>
   </footer>
 </body>
 
