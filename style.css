@@ -23,6 +23,7 @@ body {
 .episode-title {
     font-family: "Roboto", sans-serif;
     margin: 20px 0 10px 0;
+    cursor: grab;
 }
 .main-title {
     text-align: center;
@@ -83,4 +84,14 @@ a:hover {
 }
 a:visited {
     color: gray;
+}
+.sticky {
+    width: 100%;
+    border-bottom: 1px solid #bfbfbf;
+    box-shadow: 10px gray;
+    background-color: whitesmoke;
+    box-shadow: 2px 10px 5px #aaaaaa;
+    position: fixed;
+    top: 0;
+    padding-top: 2%;
 }
